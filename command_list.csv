@@ -1,0 +1,38 @@
+    1  touch text_ignore.txt
+    2  echo "text_ignore.txt" >> .gitignore
+    3  git status
+    4  git add .
+    5  git commit - m "Add text_ignore.txt to .gitignore"
+    6  touch main_test.txt
+    7  git add
+    8  git add .
+    9  git commit -m "Add main_test.txt"
+   10  git checkout -b develop
+   11  touch develop_test.txt
+   12  git add .
+   13  gitcommit -m "Add develop_test.txt"
+   14  cd /c/For/
+   15  rm -rf HW_10
+   16  git clone http://github.com/Iryna247/HW_10.git
+   17  cd HW_10
+   18  touch text_ignore.txt
+   19  echo "text_ignore.txt" >> .gitignore
+   20  git status
+   21  git add .
+   22  git commit -m "Add text_ignore.txt to .gitignore"
+   23  touch main_test.txt
+   24  git add .
+   25  git commit -m "Add main_test.txt"
+   26  git checkout -b develop
+   27  touch develop_test.txt
+   28  git add .
+   29  git commit -m "Add develop_test.txt"
+   30  git status
+   31  git add .
+   32  git commit -m "Update develop_test.txt"
+   33  git checkout main
+   34  git merge develop
+   35  git log
+   36  cs /c/For/HW_10
+   37  cd /c/For/HW_10/
+   38  history > command_list.csv
